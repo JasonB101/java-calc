@@ -36,6 +36,8 @@ public class Main {
                 case '^':
                     new PowerOf(operation, firstValue, secondValue).printResult();
                     break;
+                default:
+                    System.out.println("That was not a valid operation!");
             }
 
     }
